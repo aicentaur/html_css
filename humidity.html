@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css"> 
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body >
+  <nav class="navbar navbar-default my-navbar-padding">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+          </button>
+        <a class="navbar-brand my-nav-brand" href="index.html">Latitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="max_temp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="wind_speed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="col-sm-11 main-box">
+        <h2 class="my-h2">Humidity</h2>
+        <hr>
+        <img src="Resources/assets/images/humidity.png" alt="latitude vs humidity" class="img-responsive">
+        <br>
+        <p>This graph shows that there is no correlation between humidity and proximity to the equator.</p>
+        
+      </div>
+      <div class="col-sm-1"></div>
+      </div>
+      <div class="col-sm-3">
+        <div class="col-sm-12 image-box">
+          <h2 class="my-h2">Visualizations</h2>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="max_temp.html"><img class="img-responsive" src="Resources/assets/images/max_temp.png" alt="latitude vs temperature"></a>
+            </div>
+            <div class="col-sm-6">
+              <a href="humidity.html"><img class="img-responsive" src="Resources/assets/images/humidity.png" alt="latitude vs humidity"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="cloudiness.html"><img class="img-responsive" src="Resources/assets/images/cloudiness.png" alt="latitude vs cloudiness"></a>
+            </div>
+            <div class="col-sm-6">
+              <a href="wind_speed.html"><img class="img-responsive" src="Resources/assets/images/wind_speed.png" alt="latitude vs wind speed"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer navbar-fixed-bottom">
+    <div class="text-center">USC Viterbi Data Analytics Bootcamp 2019</div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+
+body {
+    background-color: #e4e3e3 !important;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    padding-bottom: 120px;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  .my-nav-brand {
+    background-color: #0b03a5;
+    color: #ffffff !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px !important;
+    font-weight: bold;
+  }
+  
+  .my-nav-brand:hover {
+    background-color: #0b03a5 !important;
+  }
+  
+  .my-navbar-padding {
+    padding: 0px 0px 0px 75px !important;
+  }
+  
+  .class-with-pad { 
+    padding: 0px 0px 0px 40px; 
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120%;
+    height: 45px; /* Set the fixed height of the footer here */
+    line-height: 45px; /* Vertically center the text there */
+    background-color: #06016d;
+    color: white;
+    border-top: solid 5px #06016d !important;
+  }
+  
+  .main-box {
+    background-color: #ffffff;
+    padding: 30px ;
+  }
+  
+  .image-box {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 30px !important;
+  }
+  
+  .my-h2 {
+    color: #0b03a5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .my-h3 {
+    color: #0b03a5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .my-active {
+    border: solid 1px blue;
+  }
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  @media (max-width: 480px) {
+    .main-box {
+      padding: 5px ;
+    }
+    
+    .image-box {
+      padding: 5px !important;
+    }
+  }
+  
